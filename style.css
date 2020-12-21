@@ -1,0 +1,48 @@
+.heading{
+    background-color: dodgerblue;
+    border: solid;
+    border-color: gold; 
+    font-family: 'Courier New', Courier, monospace; 
+    margin: 25px; 
+}
+
+.links{
+    background: rgba(1, 255, 56, 0.493);
+    border: solid;
+    border-color: rgb(233, 182, 88);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pics{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightskyblue;
+    border: solid;
+    border-color: hotpink;
+}
+
+.facts{
+    background-color: rgb(248, 222, 76);
+    border: solid;
+    border-color: orangered;
+    font-family: cursive;
+    font-size: larger;
+    padding: 25px;
+}
+
+.setup{
+    position: relative;
+}
+
+.setup p{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate();
+    opacity: 0;
+}
+
+.setup:hover p{
+    opacity: 1;
+}
